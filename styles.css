@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+title {
+    display: flex;
+    align-self: center;
+    margin-top: 3rem;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,15 +21,37 @@ div {
     display: flex;
 }
 
+button {
+    display: flex;
+    border: none;
+    background-color: darkslategray;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+input {
+    text-align: center;
+}
+
+.enter {
+    display: none;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5rem;
+    margin-top: 3rem;
     min-height: 25rem;
     min-width: 25rem;
     flex: 1 0 auto;
     flex-grow: 0;
+    order: -1;
 }
 
 .row {
